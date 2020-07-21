@@ -3,20 +3,24 @@
     padding: 0;
 }
 body {
-    background-color: cornsilk;
+    background-color: khaki;
 }
 .card {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: row wrap;
-    width: 30 em;
+    float: left;
+    align-content: center;
+    width: 30%;
+    border: 1px solid orangered;
+    margin: 5px;
 
-    
-}
+    }
 
 .card img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    height: 30%;
 }
