@@ -4,12 +4,15 @@
 }
 body {
     background-color: khaki;
+    
 }
 
 .cards {
     display: flex;
     flex-wrap:wrap;
     justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif
+    
 }
 .card {
     width: 30%;
@@ -19,17 +22,21 @@ body {
     border-radius: 3px;
     border-style: solid;
    
+    
+   
   }
 
 .card img {
     display: block;
+    margin: auto;
     width: 50%;
     height: 30%;
   
 }
 
 .card:hover {
-  box-shadow: #008;
+    box-shadow: 5px 10px;
+
 }
 .card h2 {
     display: flex;
@@ -38,11 +45,16 @@ body {
 }
 
 .card p1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
 }
 
 .card h3 {
     background-color: darkgrey;
     color: yellow;
+        
     
+}
+
+header{
+    font-weight: bold;
 }
