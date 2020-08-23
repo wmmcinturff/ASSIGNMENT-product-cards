@@ -5,7 +5,7 @@ The following application was built as part of a study group assignment at NSS. 
 The purpose of the app is to display available product cards with pertinent information for prospective buyers: images of available products, descriptions, availability, pricing, etc.
 
 ### Demo
-
+![Product Cards](projectdemo/product_cards.gif)
 
 ### Technologies Used
 * HTML
